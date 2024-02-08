@@ -1,45 +1,44 @@
-.Login-container {
-  position: absolute;
-  top: 500%;
-  left: 500%;
-  transform: translate(-80%, -80%);
-  background-color: rgba(62, 10, 184, 0.8);
+/* login.css */
+
+/* Style for the login form container */
+.loginForm {
+  max-width: 200px; /* Adjust the maximum width as needed */
+  margin: center; /* Center the form horizontally */
   padding: 20px;
+  background-color: #ffffff; /* White background */
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(248, 9, 81, 0.1);
-  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow for a subtle effect */
 }
 
-.Login-container h2 {
-  margin-bottom: 70px;
+/* Style for the form labels */
+.loginForm label {
+  display: block; /* Display labels as block elements */
+  margin-bottom: 6px;
+  font-weight: bold;
 }
 
-.Login-container form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.Login-container label {
-  margin-bottom: 80px;
-}
-
-.Login-container input {
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #610808;
-  margin-top: 5px;
-}
-
-.Login-container button {
+/* Style for the form inputs */
+.loginForm input {
+  width: 100%;
   padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+/* Style for the submit button */
+.loginForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Blue color for the button */
+  color: #ffffff; /* White text color */
   border: none;
-  background-color: #165eaa;
-  color: white;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.Login-container button:hover {
-  background-color: #094d96;
+/* Style for the message area */
+.loginMessage {
+  margin-top: 10px;
+  color: red; /* Red color for error messages */
 }
